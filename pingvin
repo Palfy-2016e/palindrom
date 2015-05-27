@@ -1,0 +1,10 @@
+def palidrom(x):
+    a=[]
+    b=[]
+    for i in x:
+        a.append(i)
+    b=a[::-1]
+    if a==b:
+        return True
+    else:
+        return False
